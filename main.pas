@@ -1,13 +1,7 @@
 ﻿var
-ks: array [0..8] of real;
-
-
+  ks: array [0..8] of real;
   kolp: array [1..8] of real;
-
-
   bn, kol, eksp, pr, mkpr, koleksp, preksp: real;
-
-
   nb, i : integer;
   h : string;
 
