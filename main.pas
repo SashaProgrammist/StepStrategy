@@ -1,14 +1,15 @@
 ﻿var
-  ks: array [0..8] of real;
+ks: array [0..8] of real;
 
-var
+
   kolp: array [1..8] of real;
 
-var
+
   bn, kol, eksp, pr, mkpr, koleksp, preksp: real;
 
-var
+
   nb, i : integer;
+  h : string;
 
 begin
   kol := 1;
@@ -18,7 +19,7 @@ begin
   ks[4] := 432;
   ks[5] := 70;
   ks[6] := 150;
-  ks[7] := 320;
+  ks[7] := 32
   ks[8] := 600;
   kolp[1] := 1;
   kolp[2] := 5;
@@ -122,4 +123,6 @@ begin
   begin
     writeln('вы проиграли');
   end;
+  write('напиши что то что-бы законьчить');
+  read(h);
 end.
